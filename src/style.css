@@ -1,0 +1,283 @@
+body{
+    color: white;
+    background-color: #110E1A;
+    font-family: "Raleway", serif;
+    background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
+
+html {
+    --section-background-color: linear-gradient(
+      to bottom left,
+      rgba(17, 16, 16, 0.582),
+      rgba(12, 8, 24, 0.904)
+    );
+  
+    --image-gradient: linear-gradient(
+      to bottom left,
+      rgba(17, 16, 16, 0.678),
+      rgba(12, 10, 22, 0.863)
+    );
+  
+    --imp-text-color: #c770f0;
+  }
+
+
+
+
+                                                /* navbar css */
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.logo{
+    width: 45px;
+
+}
+
+.active{
+    color: white !important;
+}
+
+.nav-link  {
+  
+    padding: 1rem 0.4rem !important;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 22px;
+    
+  
+   
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white!important;
+    text-decoration: 4px underline #673688;
+    
+
+   
+   
+}
+
+
+
+
+li.nav-item {
+    margin: 0px 15px !important;
+
+}
+
+.navbar_button{
+    background-color: #673688 !important;
+    border: none !important;
+    display: flex;
+    width: 80px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+
+}
+
+
+.bi-star{
+    font-size: 18px !important;
+   
+}
+
+
+                                               /* footer styling */
+
+
+.footer{
+    background-color: black;
+    padding: 23px 16px;
+}
+.footer h3{
+  font-size: 18px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.social-icons {
+    padding: 0px 20px;
+}
+
+
+                                            /* Home section  styling */
+
+.Home_about_section{
+    position: relative;
+    background-image:var(--image-gradient), url('./images/home-bg.jpg');
+    z-index: -1;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    /* height: 990px; */
+}                                            
+
+
+.home-content-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-content{
+    padding: 80px 110px;
+}
+
+
+.main-name {
+    color: #cd5ff8;
+  }
+  
+  .Typewriter__wrapper {
+    font-size: 2.2em !important;
+    color: #be6adf !important;
+    font-weight: 600 !important;
+  }
+  .Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: #b562d6 !important;
+  }
+
+  .typestyle{
+    padding: 50px 0px;
+  }
+
+
+  .purple{
+   color:  #c770f0;
+  }
+
+  .home_intro_col p{
+    margin-left: 60px;
+    font-size: 1.3em !important;
+  }
+ 
+
+  .Home_intro_section{
+    margin-top: 125px;
+  }
+
+.home-about-social-links{
+    display: flex;
+    list-style: none;
+}
+  
+
+.icon-colour {
+    color: white !important;
+  }
+
+  .home-social-icons
+  {
+    font-size: 39px;
+    padding: 0px 14px;
+  }
+
+
+  .home_connect{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home_connect_row{
+    padding: 22px 0px;
+  }
+
+
+  .wave {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+
+                                         /* about section */
+
+ .about-section{
+            padding: 100px 0px;
+            position: relative;
+            background-image:var(--image-gradient);
+            z-index: -1;
+            background-position: top center;
+            background-repeat: no-repeat;
+            padding-bottom: 30px !important;
+            padding-top: 30px !important;
+ }                                        
+
+ 
+
+ .skillset_row{
+  display: flex;
+  justify-content: center;
+ }
+
+ .skillset_card{
+  border: 1px solid #b562d6;
+  margin: 15px 8px;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 70px;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+ }
+
+.skillset_card:hover{
+  transform: scale(1.07) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+
+
