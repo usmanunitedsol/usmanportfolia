@@ -27,7 +27,7 @@ const Home = () => {
 
             <h1 className="heading-name">
               I'M
-              <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+              <strong className="main-name"> USMAN LIAQUT</strong>
             </h1>
             <div className="typestyle" style={{ textAlign: "left" }}>
               <Typedes />
